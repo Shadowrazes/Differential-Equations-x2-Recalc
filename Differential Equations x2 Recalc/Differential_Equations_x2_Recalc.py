@@ -1,9 +1,9 @@
-import math
+п»їimport math
 
 E = 0.00001
 
 def dydx(x, y):
-    return math.sin(x) # исходная функция -cos(x)
+    return math.sin(x) # РёСЃС…РѕРґРЅР°СЏ С„СѓРЅРєС†РёСЏ -cos(x)
 
 def rungeKutta4x(x0, y0, x, h):
     funcVal = []
